@@ -1,6 +1,0 @@
-{
-  "noodle": {
-    "provider": "gcf",
-    "functionName": "randomMuppet"
-  }
-}
