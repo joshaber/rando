@@ -5,7 +5,7 @@ const app = express()
 const port = process.env.PORT || 3001
 asdf
 app.get('/', (req, res) => {
-  console.log('Oh boy!')
+  console.log('Oh boy!!!!!!!')
   console.info(`that's what's up`)
   console.warn('warning!')
   console.error('oh no')
