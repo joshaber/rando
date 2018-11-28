@@ -10,7 +10,7 @@ COPY package.json /usr/src/app/
 COPY . /usr/src/app
 RUN yarn
 
-# Oh cool, port 3001! SAME THING THE SERVER IS ONa
+# Oh cool, port 3001! SAME THING THE SERVER IS ON
 EXPOSE 3001
 
 CMD [ "yarn", "start" ]
