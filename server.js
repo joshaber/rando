@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   console.info(`that's what's up`)
   console.warn('warning!')
   console.error('oh no')
-  res.sendfile('./index.htmla')
+  res.sendfile('./index.htmlab')
 })
 
 app.listen(port, () => console.log(`Listening on port ${port}`))
