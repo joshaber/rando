@@ -1,0 +1,3 @@
+[submodule "potential-potato"]
+	path = potential-potato
+	url = https://github.com/joshaber/potential-potato
