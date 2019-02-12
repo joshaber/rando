@@ -1,6 +1,9 @@
 workflow "New workflow" {
   on = "push"
-  resolves = ["HTTP client"]
+  resolves = [
+    "HTTP client",
+    "Filters for GitHub Actions",
+  ]
 }
 
 action "HTTP client" {
@@ -9,4 +12,8 @@ action "HTTP client" {
 
 workflow "Cool workflow" {
   on = "push"
+}
+
+action "Filters for GitHub Actions" {
+  uses = "actions/bin/filter@ec328c7554cbb19d9277fc671cf01ec7c661cd9a"
 }
